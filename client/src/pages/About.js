@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 
 function About() {
     return (
@@ -6,6 +7,7 @@ function About() {
             <h1>
                 Hello! I am the About page...
             </h1>
+            <Button>Hi!</Button>
         </div>
     )
 }
