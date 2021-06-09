@@ -7,7 +7,7 @@ function Header(props) {
         <div class='header'>
             <div class='header-content'>
                 <Container>
-                    <h1>{props.header}</h1>
+                    <h1><b>{props.header}</b></h1>
                 </Container>
             </div>
         </div>
