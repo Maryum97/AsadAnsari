@@ -1,13 +1,27 @@
 .header {
     background-color: rgb(221, 185, 94);
-    padding: 2%;
+    padding: 1.75%;
+    animation-name: slidein;
+    animation-duration: 3s;
 }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 .header-content {
     text-align: center;
     color: rgb(133, 39, 39);
     background-color: rgb(241, 237, 201);
-    padding: 1%;
+    padding: 0.75%;
     margin-left: 60pt;
     margin-right: 60pt;
     border-radius: 1000px / 200px;
