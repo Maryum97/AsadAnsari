@@ -8,10 +8,10 @@ function About() {
     return (
         <div>
             <Navbar />
-            <br></br>
             <Header header='About Myself' info='Here is something about me...'/>
             <br></br>
             <Description paragraph='Hello, everyone, welcome to my page! Here is something about me...'/>
+            <br></br>
             <br></br>
             <Header header='My Achievements' info='Here are my achievements...'/>
             <br></br>
