@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
     return (
-        <h1>Hello!</h1>
+        <h1>{props.header}</h1>
     )
 }
 
