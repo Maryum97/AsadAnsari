@@ -8,6 +8,7 @@ import {
     NavItem,
     NavLink
 } from 'reactstrap';
+import './style.css'
 
 const MainNavbar = (props) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const MainNavbar = (props) => {
 
     return (
         <div>
-            <Navbar color="light" light expand="md">
+            <Navbar expand="md" className='navbar'>
                 <NavbarBrand href="/"><b>Asad</b>Ansari</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
@@ -31,7 +32,10 @@ const MainNavbar = (props) => {
                             <NavLink href="/">Philanthropy</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/contact">Contact Me</NavLink>
+                            <NavLink href="/">Awards</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/">Contact Me</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
