@@ -9,10 +9,12 @@ function About() {
         <div>
             <Navbar />
             <br></br>
-            <Header header='About Myself'/>
+            <Header header='About Myself' info='Here is something about me...'/>
+            <br></br>
             <Description paragraph='Hello, everyone, welcome to my page! Here is something about me...'/>
             <br></br>
-            <Header header='My Accomplishments'/>
+            <Header header='My Achievements' info='Here are my achievements...'/>
+            <br></br>
             <Description paragraph='Here is a list of some of the stuff I have accomplished:'/>
             <br></br>
             <br></br>
