@@ -1,0 +1,13 @@
+.header {
+    text-align: center;
+    background-color: aquamarine;
+    margin-top: -2%;
+    padding: 4%;
+}
+
+.header-content {
+    background-color: white;
+    padding: 2%;
+    margin-left: 50pt;
+    margin-right: 50pt;
+}
