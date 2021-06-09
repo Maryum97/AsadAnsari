@@ -1,8 +1,11 @@
 import React from 'react';
+import { Container } from 'reactstrap';
 
 function Description(props) {
     return (
-        <p>{props.paragraph}</p>
+        <Container>
+            <p>{props.paragraph}</p>
+        </Container>
     )
 }
 
