@@ -1,13 +1,14 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+import Navbar from '../components/Navbar';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 function About() {
     return (
         <div>
-            <h1>
-                Hello! I am the About page...
-            </h1>
-            <Button>Hi!</Button>
+            <Navbar />
+            <Header />
+            <Footer />
         </div>
     )
 }
