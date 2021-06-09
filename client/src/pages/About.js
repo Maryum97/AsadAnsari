@@ -33,6 +33,12 @@ function About() {
             <Description paragraph='“Philanthropy is a huge part of my life. It fills a gap for me. The more I help others, the more it pays off personally. In a small way, I’m trying to help make a lasting impact in others’ lives. All the initiatives I’m working on with trustable charities in different sectors, help me do that.”' />
             <br></br>
             <br></br>
+            <Header header='Awards' />
+            <br></br>
+            <br></br>
+            <Header header='Contact Me' />
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
