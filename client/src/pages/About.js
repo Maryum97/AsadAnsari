@@ -8,6 +8,7 @@ import Header from '../components/Header';
 import Description from '../components/Description';
 import Footer from '../components/Footer';
 import PageIntro from '../components/PageIntro';
+import Quotation from '../components/Quotation';
 
 // import images here
 import Image1 from '../Assets/Asad-Ansari-1280x640.jpg';
@@ -74,7 +75,7 @@ function About() {
             <br></br>
             <Header header='Philanthropy' />
             <br></br>
-            <Description paragraph='“Philanthropy is a huge part of my life. It fills a gap for me. The more I help others, the more it pays off personally. In a small way, I’m trying to help make a lasting impact in others’ lives. All the initiatives I’m working on with trustable charities in different sectors, help me do that.”' />
+            <Quotation />
             <br></br>
             <br></br>
             <Header header='Awards' />
