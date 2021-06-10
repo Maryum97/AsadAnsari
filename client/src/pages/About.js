@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row } from 'reactstrap';
 
 // import components here
 import Navbar from '../components/Navbar';
@@ -15,14 +15,15 @@ import Image1 from '../Assets/Asad-Ansari-1280x640.jpg';
 import Logo1 from '../Assets/RiskIntelLogo.png';
 import Logo2 from '../Assets/MayfairITConsultancyLogo.png';
 import Logo3 from '../Assets/AccrediNationLogo.png';
+import PhilItems from '../components/PhilanthropyItems';
 
 const myStyle = {
     style1: {
         display: 'block',
         marginLeft: 'auto',
         marginRight: 'auto',
-        width: '540px',
-        height: '270px'
+        width: '470px',
+        height: '240px'
     },
 
     style2: {
@@ -77,7 +78,7 @@ function About() {
             <br></br>
             <Quotation />
             <br></br>
-            <Description 
+            <Description
                 heading='Freeman for the City of London'
                 paragraph='For his work in the risk intelligence services to mitigate third party and reputational risk and 
                 goals to improve education standards and bring integrity and quality to Human Resources.
@@ -85,9 +86,18 @@ function About() {
             />
             <Description paragraph='Asad was joined by Michael Mainelli (Sheriff, and Alderman), Mark Wheatley (Common Councillor), and Moawia Bin-Sufyan as he was recognised being a Freeman for the City of London on 23/02/2021 by Laura Miller (Deputy Clerk to the Chamberlain’s Court).' />
             <Description paragraph='Others who have received the Freeman or Free Sister recognition are amongst Royal Family members; HRH Princess Elizabeth, HM Queen Elizabeth The Queen Mother, Diana, Princess of Wales, Prime ministers of the United Kingdom, Presidents of the United States of America, Entrepreneurs and other Senior officials within Royal Family, Politics, Business, and celebrity in their chosen field.' />
+            <Description heading="Asad's other philanthropic work includes the following:" />
+            <Container>
+                <PhilItems />
+            </Container>
             <br></br>
             <br></br>
             <Header header='Awards' />
+            <br></br>
+            <Description
+                heading='Asians In Tech Award 2020'
+                paragraph='Asad has received the Top 100 Asians Stars In UK Tech Award 2020 for his work in the risk and regulatory sector, which delivers a suite of flexible services that assist clients with assessments, reviews, deep dives, and forecasts. Most notably having delivered projects and developed business across digital technology, change, regulatory, risk, governance and IT projects across a range of FTSE 100 clients within Enterprise Software, AIM stock market, Insurance, Banking, Technology, Pharmaceutical, and Public Sector.'
+            />
             <br></br>
             <br></br>
             <Header header='Contact Me' />
