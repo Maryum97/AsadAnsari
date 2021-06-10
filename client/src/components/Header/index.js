@@ -4,8 +4,8 @@ import './style.css';
 
 function Header(props) {
     return (
-        <div class='header'>
-            <div class='header-content'>
+        <div className='header'>
+            <div className='header-content'>
                 <Container>
                     <h1><b>{props.header}</b></h1>
                 </Container>
