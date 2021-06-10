@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Navbar2 from '../components/Navbar2';
 import Header from '../components/Header';
 import Description from '../components/Description';
 import Footer from '../components/Footer';
@@ -9,6 +10,7 @@ function About() {
     return (
         <div>
             <Navbar />
+            <Navbar2 />
             <PageIntro />
             <br></br>
             <br></br>
