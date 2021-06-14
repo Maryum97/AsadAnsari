@@ -73,9 +73,9 @@ function About() {
             <Description paragraph='Asad is the Founder and Managing Director of:' />
             <Container>
                 <Row>
-                    <img src={Logo1} style={myStyle.style3} class="img-fluid"></img>
-                    <img src={Logo2} style={myStyle.style2} class="img-fluid"></img>
-                    <img src={Logo3} style={myStyle.style3} class="img-fluid"></img>
+                    <img src={Logo1} style={myStyle.style3} className="img-fluid"></img>
+                    <img src={Logo2} style={myStyle.style2} className="img-fluid"></img>
+                    <img src={Logo3} style={myStyle.style3} className="img-fluid"></img>
                 </Row>
             </Container>
             <br></br>

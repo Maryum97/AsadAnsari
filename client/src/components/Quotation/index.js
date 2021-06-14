@@ -17,7 +17,7 @@ function Quotation() {
                 <Row>
                     <Col xs='4'>
                         <br></br>
-                        <img src={ImageQuote} style={myStyle} class="img-fluid"></img>
+                        <img src={ImageQuote} style={myStyle} className="img-fluid"></img>
                     </Col>
                     <Col xs='8'>
                         <div className='quote'>

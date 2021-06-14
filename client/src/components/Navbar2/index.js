@@ -19,7 +19,7 @@ const MainNavbar = (props) => {
         <div>
             <Navbar color="light" light expand="md" className='navbar2'>
                 <NavbarBrand href="/"></NavbarBrand>
-                <NavbarToggler onClick={toggle} classname='mr-2'/>
+                <NavbarToggler onClick={toggle} className='mr-2'/>
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
                         <NavItem>

@@ -5,13 +5,13 @@ import './style.css';
 
 function PageIntro() {
     return (
-        <div class='page-intro'>
+        <div className='page-intro'>
             <Container>
                 <Row>
                     <Col xs='3'></Col>
 
                     <Col xs='6'>
-                        <div class='text'>
+                        <div className='text'>
                             <b>Asad</b>Ansari
                         </div>
                         <img src={Logo}></img>
