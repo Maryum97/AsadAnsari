@@ -4,6 +4,10 @@
     padding: 1%;
 }
 
+.logo {
+  font-size: 40pt;
+}
+
 h2 {
     animation: fadeIn 5s;
     -webkit-animation: fadeIn 5s;
