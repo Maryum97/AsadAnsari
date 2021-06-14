@@ -17,7 +17,7 @@ function Footer() {
                         <span>  </span>
                         <a href="" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
                         <span>  </span>
-                        <a href="" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                        <a href="https://www.linkedin.com/company/11423901/admin/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
 
                     </Col>
                 </Row>
