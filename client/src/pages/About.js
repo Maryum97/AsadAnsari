@@ -54,9 +54,10 @@ const myStyle = {
 
 function About() {
     return (
-        <div>
+        <div id='page'>
             <Navbar />
             <Navbar2 />
+            <br></br>
             <PageIntro />
             <br></br>
             <br></br>
