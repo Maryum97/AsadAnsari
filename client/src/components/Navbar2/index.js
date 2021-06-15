@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from 'reactstrap';
-import './style.css';
 
 const myStyles = {
     card: {
@@ -11,7 +10,7 @@ const myStyles = {
     },
 
     listGroupItem: {
-        backgroundColor: 'rgb(241, 237, 201)'
+        backgroundColor: 'rgb(240, 245, 285)'
     }
 }
 
@@ -28,7 +27,7 @@ function NavLinks() {
             <div className='card' style={myStyles.card}>
                 <Button
                     onClick={handleToggle}
-                    color='primary'
+                    color='success'
                     >
                         show/hide nav
                 </Button>

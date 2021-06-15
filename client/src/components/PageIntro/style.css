@@ -1,7 +1,10 @@
-/* .page-intro {
+.page-intro {
     background-color: rgb(241, 237, 201);
-    padding: 2%;
-} */
+    padding: 3%;
+    margin-top: -5%;
+    margin-bottom: -5%;
+    height: 500px;
+}
 
 .text {
     text-align: center;
