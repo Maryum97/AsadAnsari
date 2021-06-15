@@ -173,6 +173,13 @@ function About() {
             <div id='contact'>
                 <Header header='Contact Me' />
                 <br></br>
+                <Description
+                    paragraph='Feel free to get in touch via my email or social media.'
+                />
+                <Description
+                    paragraph='contact@asadansari.org'
+                />
+                <br></br>
                 <br></br>
             </div>
             <br></br>
