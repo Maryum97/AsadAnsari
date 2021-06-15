@@ -1,9 +1,10 @@
 import React from 'react';
 
 const myStyles = {
-    card : {
+    card: {
         zIndex: '1',
-        position: 'fixed'
+        position: 'fixed',
+        animation: 'fadeIn 5s'
     },
 
     listGroupItem: {
@@ -11,7 +12,7 @@ const myStyles = {
     }
 }
 
-function NavLinks () {
+function NavLinks() {
 
     return (
         <div className='card' style={myStyles.card}>

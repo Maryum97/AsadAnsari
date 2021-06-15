@@ -24,7 +24,7 @@ import Item5 from '../Assets/IslamChannel.png';
 import Item6 from '../Assets/Deloitte.png';
 import Image2 from '../Assets/Top100AsianStarsInUKTech.png';
 
-document.body.style.backgroundColor = 'rgb(250, 245, 235)'
+document.body.style.backgroundColor = 'rgb(240, 245, 285)'
 
 const myStyle = {
     style1: {
