@@ -9,7 +9,7 @@ const MainNavbar = () => {
     return (
         <div>
             <Navbar expand="md" className='navbar'>
-                <NavbarBrand href="/"><h2 className='logo'><b>A</b>A</h2></NavbarBrand>
+                <NavbarBrand href="/"><h1 className='logo'><b>Asad</b>Ansari</h1></NavbarBrand>
             </Navbar>
         </div>
     );

@@ -6,11 +6,11 @@ const myStyles = {
         zIndex: '1',
         position: 'fixed',
         marginTop: '7px',
-        animation: 'fadeIn 5s'
+        animation: 'fadeIn 5s',
     },
 
     listGroupItem: {
-        backgroundColor: 'rgb(240, 245, 285)'
+        backgroundColor: 'rgb(221, 185, 94)'
     }
 }
 
