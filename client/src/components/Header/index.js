@@ -12,7 +12,7 @@ useEffect(() => {
 
     return (
         <div className='header'>
-                <h1 className='header-text'><b>Hello!</b></h1>
+                <h1 className='header-text'><b>{props.header}</b></h1>
         </div>
     )
 }
