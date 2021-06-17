@@ -6,3 +6,7 @@
 .card-body {
     background-color: rgb(241, 237, 201);
 }
+
+.card-img {
+    height: 170px;
+}
