@@ -11,7 +11,7 @@ useEffect(() => {
 }, []);
 
     return (
-        <div className='header'>
+        <div data-aos='fade-left' className='header'>
                 <h1 className='header-text'><b>{props.header}</b></h1>
         </div>
     )
