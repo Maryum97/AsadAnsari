@@ -1,11 +1,11 @@
 .header {
     background-color: rgb(221, 185, 94);
     padding: 1.6%;
-    animation-name: slidein;
-    animation-duration: 4.5s;
+    /* animation-name: slidein;
+    animation-duration: 4.5s; */
 }
 
-@keyframes slidein {
+/* @keyframes slidein {
     from {
       margin-left: 100%;
       width: 300%;
@@ -15,7 +15,7 @@
       margin-left: 0%;
       width: 100%;
     }
-  }
+  } */
 
 .header-content {
     text-align: center;

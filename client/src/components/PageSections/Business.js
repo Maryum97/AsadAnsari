@@ -24,7 +24,7 @@ const myStyle = {
         display: 'block',
         marginLeft: 'auto',
         marginRight: 'auto',
-        width: '200px',
+        width: '190px',
         height: '50px'
     }
 }
