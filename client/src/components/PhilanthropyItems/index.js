@@ -9,7 +9,7 @@ const PhilCard = (props) => {
   return (
     <div className='card'>
       <Card>
-        <CardImg top width="100%" src={props.item} alt="Card image cap" />
+        <CardImg className='card-img' top width="100%" src={props.item} alt="Card image cap" />
         <CardBody className='card-body'>
           <CardTitle tag="h5" className='text-center'>{props.title}</CardTitle>
           <CardText>{props.text}</CardText>
