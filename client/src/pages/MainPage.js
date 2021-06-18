@@ -2,7 +2,6 @@ import React from 'react';
 
 // import components here
 import Navbar from '../components/Navbar';
-import Navbar2 from '../components/Navbar2';
 import Footer from '../components/Footer';
 import PageIntro from '../components/PageIntro';
 
@@ -19,7 +18,6 @@ function About() {
     return (
         <div id='page'>
             <Navbar />
-            <Navbar2 />
             <br></br>
             <PageIntro />
             <br></br>
@@ -46,6 +44,27 @@ function About() {
             <div id='contact'>
                 <ContactMe />
             </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
             <br></br>
