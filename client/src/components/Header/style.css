@@ -1,8 +1,8 @@
 .header {
-  margin-top: 25px;
+  margin-top: 50px;
   background-color: rgb(221, 185, 94);
-  padding: 50px 0px;
-  height: 200px;
+  padding: 90px 0px;
+  height: 260px;
   max-height: 35vh;
   box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -14,17 +14,6 @@
   font-size: 40pt;
   transition: 0.4s;
   font-family: Arial, Helvetica, sans-serif;
-  animation-name: rotate;
-  animation-duration: 2.8s;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(720deg);
-  }
 }
 
 .header-text:hover {
