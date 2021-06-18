@@ -38,6 +38,7 @@ function NavLinks() {
                     <a href="#philanthropy" className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Philanthropy</a>
                     <a href="#awards" className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Awards</a>
                     <a href="#contact" className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Contact Me</a>
+                    <a href='#bottom' className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Bottom Of Page</a>
                     <a href='#page' className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Back To Top</a>
                 </div>
                 : null}
