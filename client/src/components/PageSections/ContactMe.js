@@ -11,10 +11,13 @@ import Description from '../Description';
 const myStyles = {
     contact: {
         backgroundColor: 'rgb(221, 185, 94)',
-        height: '3000px'
+        height: '5000px'
     },
     follow: {
         textAlign: 'center'
+    },
+    padding: {
+        height: '1000px'
     }
 }
 
@@ -22,16 +25,23 @@ function ContactMe() {
     return (
         <div className='contact' style={myStyles.contact}>
             <Header header='Contact Me' />
-            <Description
-                paragraph='Feel free to get in touch via my email or social media.'
-            />
-            <Description
-                paragraph='contact@asadansari.org'
-            />
+
+            <div className='email' style={myStyles.padding}>
+                <Description
+                    paragraph='Feel free to get in touch via my email:'
+                />
+
+                <Description
+                    paragraph='contact@asadansari.org'
+                />
+            </div>
+
             <br></br>
             <Row style={myStyles.follow}>
                 <Col xs='12'>
-                    Follow me on social media:<br></br>
+                    <Description
+                        paragraph='Follow me on social media:'
+                    />
                     <a href="" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
                     <span>  </span>
                     <a href="" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
