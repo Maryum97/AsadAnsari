@@ -1,25 +1,19 @@
 import React from 'react';
 import './style.css';
 import { Row, Col } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faTwitter, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+// define styles here
+const myStyles = {
+    textAlign: 'center',
+    fontSize: '24pt',
+    fontWeight: 'bold'
+}
 
 function Footer() {
     return (
         <footer>
-                <Row>
-                    <Col xs='9'>© Copyright Asad Ansari 2021</Col>
-                    <Col xs='3'>
-                        Follow me on social media:<br></br>
-                        <a href="" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebook} /></a>
-                        <span>  </span>
-                        <a href="" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
-                        <span>  </span>
-                        <a href="" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
-                        <span>  </span>
-                        <a href="https://www.linkedin.com/company/11423901/admin/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-
-                    </Col>
+                <Row style={myStyles}>
+                    <Col xs='12'>© Copyright Asad Ansari 2021</Col>
                 </Row>
         </footer>
     );

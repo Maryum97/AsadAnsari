@@ -2,7 +2,8 @@ footer {
     width: 100%;
     color: rgb(133, 39, 39);
     background-color: rgb(173, 148, 85);
-    padding: 0.7%;
+    padding: 5%;
+    height: 180px;
 }
 
 a:link {
