@@ -12,6 +12,13 @@ import Philanthropy from '../components/PageSections/Philanthropy';
 import Awards from '../components/PageSections/Awards';
 import ContactMe from '../components/PageSections/ContactMe';
 
+// define styles here
+const myStyles = {
+    section: {
+        height: '3000px'
+    }
+}
+
 document.body.style.backgroundColor = 'rgb(240, 245, 285)'
 
 function About() {
@@ -25,46 +32,25 @@ function About() {
 
             {/* All page sections start here */}
 
-            <div id='about'>
+            <div className='section' id='about' style={myStyles.section}>
                 <AboutMe />
             </div>
 
-            <div id='business'>
+            <div className='section'  id='business' style={myStyles.section}>
                 <Business />
             </div>
 
-            <div id='philanthropy'>
+            <div className='section' id='philanthropy' style={myStyles.section}>
                 <Philanthropy />
             </div>
 
-            <div id='awards'>
+            <div className='section' id='awards' style={myStyles.section}>
                 <Awards />
             </div>
 
-            <div id='contact'>
+            <div className='section' id='contact' style={myStyles.section}>
                 <ContactMe />
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
             <br></br>
             <br></br>
             <br></br>
