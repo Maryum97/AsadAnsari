@@ -16,6 +16,9 @@ import ContactMe from '../components/PageSections/ContactMe';
 const myStyles = {
     section: {
         height: '3000px'
+    },
+    contact: {
+        height: '5000px'
     }
 }
 
@@ -48,7 +51,7 @@ function About() {
                 <Awards />
             </div>
 
-            <div className='section' id='contact' style={myStyles.section}>
+            <div className='section' id='contact' style={myStyles.contact}>
                 <ContactMe />
             </div>
             <div id='bottom'>
