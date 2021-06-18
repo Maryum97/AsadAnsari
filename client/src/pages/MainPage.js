@@ -36,7 +36,7 @@ function About() {
                 <AboutMe />
             </div>
 
-            <div className='section'  id='business' style={myStyles.section}>
+            <div className='section' id='business' style={myStyles.section}>
                 <Business />
             </div>
 
@@ -51,10 +51,9 @@ function About() {
             <div className='section' id='contact' style={myStyles.section}>
                 <ContactMe />
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <Footer />
+            <div id='bottom'>
+                <Footer />
+            </div>
         </div>
     )
 }
