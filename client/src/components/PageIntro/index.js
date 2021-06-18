@@ -22,12 +22,12 @@ function PageIntro() {
     return (
         <div className='page-intro' style={myStyles.bgIm}>
             <Row>
+                <Col xs='9'>
+                </Col>
+
                 <Col xs='3'>
                     <br></br>
                     <img className='logo-img' src={Logo}></img>
-                </Col>
-
-                <Col xs='9'>
                 </Col>
             </Row>
         </div>
