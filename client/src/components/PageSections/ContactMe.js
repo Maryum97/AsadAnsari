@@ -6,6 +6,7 @@ import { faFacebook, faTwitter, faInstagram, faLinkedin } from "@fortawesome/fre
 // import components here
 import Header from '../Header'
 import Description from '../Description';
+import ContactItem from '../ContactItem';
 
 // define styles here
 const myStyles = {
@@ -27,13 +28,16 @@ function ContactMe() {
             <Header header='Contact Me' />
 
             <div className='email' style={myStyles.padding}>
+                <br></br>
+                <br></br>
+                <br></br>
                 <Description
                     paragraph='Feel free to get in touch via my email:'
                 />
-
-                <Description
-                    paragraph='contact@asadansari.org'
-                />
+                <div id='email'>
+                    <ContactItem
+                        item='contact@asadansari.org' />
+                </div>
             </div>
 
             <br></br>
