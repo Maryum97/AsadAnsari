@@ -17,7 +17,7 @@ const Header = (props) => {
             data-aos-mirror="true"
             data-aos-once="false"
             className='header'
-            >
+        >
             <h1 className='header-text'><b>{props.header}</b></h1>
         </div>
     )
