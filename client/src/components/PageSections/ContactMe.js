@@ -10,7 +10,8 @@ import ContactItem from '../ContactItem';
 import ContactIcon from '../ContactIcon';
 
 // import images here
-import Icon1 from '../../Assets/Email.png'
+import Icon1 from '../../Assets/Email.png';
+import Icon2 from '../../Assets/Arrow.png';
 
 // define styles here
 const myStyles = {
@@ -33,12 +34,8 @@ function ContactMe() {
 
             <div className='email' style={myStyles.padding}>
                 <br></br>
-                <br></br>
-                <br></br>
-                <Description
-                    paragraph='Click below and get in touch via my email:'
-                />
                 <ContactIcon
+                    text='Drop me an email here:'
                     reference='#email'
                     icon={Icon1}
                 />
@@ -47,8 +44,17 @@ function ContactMe() {
                 <ContactItem
                     item='contact@asadansari.org' />
             </div>
+            <div>
+                <ContactIcon
+                    text='Find me on my social media here:'
+                    reference='#social-media'
+                    icon={Icon2}
+                />
+            </div>
+            <div id='social-media'>
 
-            <br></br>
+            </div>
+
             {/* <Row style={myStyles.follow}>
                 <Col xs='12'>
                     <Description
