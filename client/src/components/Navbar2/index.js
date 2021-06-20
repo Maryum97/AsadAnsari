@@ -5,7 +5,7 @@ const myStyles = {
     card: {
         zIndex: '1',
         position: 'fixed',
-        marginTop: '100px',
+        marginTop: '200px',
         animation: 'fadeIn 5s',
     },
 
