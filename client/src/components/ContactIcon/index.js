@@ -6,16 +6,16 @@ import 'aos/dist/aos.css';
 
 // define styles here
 const myStyles = {
-    item: {
+    icon: {
         textAlign: 'center',
-        padding: '20%',
+        padding: '9%',
         fontSize: '48pt',
         fontWeight: '600',
-        height: '800px'
+        height: '1000px'
     }
 }
 
-const ContactItem = (props) => {
+const ContactIcon = (props) => {
     useEffect(() => {
         Aos.init({ duration: 1000 })
     })
@@ -26,12 +26,14 @@ const ContactItem = (props) => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-delay="300"
-            style={myStyles.item}
+            data-aos-delay="600"
+            style={myStyles.icon}
         >
-            {props.item}
+            <a href={props.reference}>
+                <img src={props.icon}></img>
+            </a>
         </div>
     )
 }
 
-export default ContactItem;
+export default ContactIcon;

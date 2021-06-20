@@ -7,6 +7,10 @@ import { faFacebook, faTwitter, faInstagram, faLinkedin } from "@fortawesome/fre
 import Header from '../Header'
 import Description from '../Description';
 import ContactItem from '../ContactItem';
+import ContactIcon from '../ContactIcon';
+
+// import images here
+import Icon1 from '../../Assets/Email.png'
 
 // define styles here
 const myStyles = {
@@ -32,16 +36,20 @@ function ContactMe() {
                 <br></br>
                 <br></br>
                 <Description
-                    paragraph='Feel free to get in touch via my email:'
+                    paragraph='Click below and get in touch via my email:'
                 />
-                <div id='email'>
-                    <ContactItem
-                        item='contact@asadansari.org' />
-                </div>
+                <ContactIcon
+                    reference='#email'
+                    icon={Icon1}
+                />
+            </div>
+            <div id='email'>
+                <ContactItem
+                    item='contact@asadansari.org' />
             </div>
 
             <br></br>
-            <Row style={myStyles.follow}>
+            {/* <Row style={myStyles.follow}>
                 <Col xs='12'>
                     <Description
                         paragraph='Follow me on social media:'
@@ -55,7 +63,7 @@ function ContactMe() {
                     <a href="https://www.linkedin.com/company/11423901/admin/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
 
                 </Col>
-            </Row>
+            </Row> */}
         </div>
     )
 }
