@@ -18,7 +18,7 @@ const myStyles = {
         height: '3000px'
     },
     contact: {
-        height: '5000px'
+        height: '3700px'
     }
 }
 
