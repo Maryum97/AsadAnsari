@@ -14,7 +14,7 @@ import Icon2 from '../../Assets/Arrow.png';
 const myStyles = {
     contact: {
         backgroundColor: 'rgb(221, 185, 94)',
-        height: '5000px'
+        height: '3700px'
     },
     padding: {
         height: '1000px'
