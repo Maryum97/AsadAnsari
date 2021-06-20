@@ -12,7 +12,7 @@ const myStyles = {
         padding: '9%',
         fontSize: '18pt',
         fontWeight: '600',
-        height: '300px'
+        height: '500px'
     },
     text: {
         textAlign: 'center',
@@ -33,7 +33,6 @@ const ContactIcon = (props) => {
             data-aos-delay="700"
             style={myStyles.icon}
         >
-            <br></br>
             <div style={myStyles.text}>
                 {props.text}
             </div>

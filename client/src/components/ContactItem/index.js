@@ -8,10 +8,10 @@ import 'aos/dist/aos.css';
 const myStyles = {
     item: {
         textAlign: 'center',
-        padding: '20%',
+        padding: '10%',
         fontSize: '25pt',
         fontWeight: '600',
-        height: '300px'
+        height: '200px'
     }
 }
 
