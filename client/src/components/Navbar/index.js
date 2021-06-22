@@ -15,7 +15,7 @@ const myStyles = {
         position: 'fixed',
         marginTop: '0px',
         width: '100%',
-        height: '100px',
+        height: '110px',
         maxHeight: '35vh',
         textAlign: 'center'
     }
@@ -27,7 +27,7 @@ const MainNavbar = () => {
 
     // define function to change color
     const changeNavColor = () => {
-        if (window.scrollY >= 100) {
+        if (window.scrollY >= 110) {
             setColorChange(true);
         }
         else {

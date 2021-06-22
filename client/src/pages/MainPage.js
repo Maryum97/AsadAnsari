@@ -15,7 +15,7 @@ import ContactMe from '../components/PageSections/ContactMe';
 // define styles here
 const myStyles = {
     section: {
-        height: '3000px'
+        height: '4500px'
     },
     contact: {
         height: '3700px'
