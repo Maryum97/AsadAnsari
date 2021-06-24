@@ -3,7 +3,7 @@ import {
     Navbar,
     NavbarBrand
 } from 'reactstrap';
-import './style.css'
+import './style.css';
 
 // import other components here
 import Navbar2 from '../Navbar2';
@@ -46,7 +46,9 @@ const MainNavbar = () => {
             >
                 <NavbarBrand href="/"><h1 className='nav-text'><b>Asad</b>Ansari</h1></NavbarBrand>
             </Navbar>
+
             <Navbar2 />
+
         </div>
     );
 }
