@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import components here
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar/indexTest';
 import Footer from '../components/Footer';
 import PageIntro from '../components/PageIntro';
 
