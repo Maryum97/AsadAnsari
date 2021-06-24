@@ -6,7 +6,6 @@ import './styleNav.css';
 const myStyles = {
     navbar: {
         zIndex: '1',
-        backgroundColor: 'transparent',
         position: 'fixed',
         marginTop: '0px',
         width: '100%'
@@ -14,15 +13,33 @@ const myStyles = {
 }
 
 const Navbar = () => {
+    // states for fa-icons
     const [clicked, setClicked] = useState(false);
 
+    // states for navbar color-change
+    const [navbar, setNavbar] = useState(false);
+
+    // function to handle click event for fa-icons
     const handleClick = () => {
         setClicked(!clicked)
     }
 
+    // function to change navbar color
+    const changeNavbarColor = () => {
+        if (window.scrollY >= 110) {
+            setNavbar(true);
+        }
+        else {
+            setNavbar(false);
+        }
+    }
+
+    // change color ON SCROLL
+    window.addEventListener('scroll', changeNavbarColor);
+
     return (
-        <div style={myStyles.navbar}>
-            <nav className='NavbarItems'>
+        <div>
+            <nav className={navbar ? 'NavbarItems active' : 'NavbarItems'} style={myStyles.navbar}>
                 <h1 className='navbar-logo'>
                     <b>Asad</b>Ansari
                 </h1>

@@ -1,10 +1,14 @@
 .NavbarItems {
-    /* background: linear-gradient(90deg, rgb(221, 185, 94) 0%, rgba(221, 185, 94, 1) 100%); */
+    background: transparent;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.1rem;
+}
+
+.NavbarItems.active {
+    background-color: rgb(221, 185, 94);
 }
 
 /* Asad Ansari logo */
@@ -81,7 +85,7 @@
 
     .nav-menu.active {
         background: rgb(221, 185, 94);
-        width: 100%;
+        width: 23%;
         left: 0%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -91,7 +95,7 @@
     .nav-link {
         background-color: rgb(221, 185, 94);
         text-align: center;
-        padding: 2rem;
+        padding: 3rem;
         width: 100%;
         display: table;
     }
