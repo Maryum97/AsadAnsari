@@ -26,6 +26,15 @@ const SocialMedia = () => {
         Aos.init({ duration: 1000 })
     }, []);
 
+    // define functions to set hover state of the icon size
+    function onIcon(e) {
+        e.target.style.opacity = '0.2';
+    }
+
+    function offIcon(e) {
+        e.target.style.opacity = '1';
+    }
+
     return (
         <div style={myStyles.style1}>
             <Container>
@@ -37,7 +46,9 @@ const SocialMedia = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-mirror="true"
                                 data-aos-once="false"
-                                className='img-fluid'
+                                className='cIcon img-fluid'
+                                onMouseOver={onIcon}
+                                onMouseOut={offIcon}
                                 src={Facebook}>
 
                             </img>
@@ -50,8 +61,9 @@ const SocialMedia = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-mirror="true"
                                 data-aos-once="false"
-                                data-aos-delay="200"
-                                className='img-fluid'
+                                className='cIcon img-fluid'
+                                onMouseOver={onIcon}
+                                onMouseOut={offIcon}
                                 src={Twitter}>
 
                             </img>
@@ -64,8 +76,9 @@ const SocialMedia = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-mirror="true"
                                 data-aos-once="false"
-                                data-aos-delay="400"
-                                className='img-fluid'
+                                className='cIcon img-fluid'
+                                onMouseOver={onIcon}
+                                onMouseOut={offIcon}
                                 src={Instagram}>
 
                             </img>
@@ -78,8 +91,9 @@ const SocialMedia = () => {
                                 data-aos-easing="ease-in-out"
                                 data-aos-mirror="true"
                                 data-aos-once="false"
-                                data-aos-delay="600"
-                                className='img-fluid'
+                                className='cIcon img-fluid'
+                                onMouseOver={onIcon}
+                                onMouseOut={offIcon}
                                 src={LinkedIn}>
 
                             </img>
