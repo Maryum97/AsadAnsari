@@ -5,7 +5,7 @@ const myStyles = {
     card: {
         zIndex: '1',
         position: 'fixed',
-        marginTop: '200px',
+        marginTop: '930px',
         animation: 'fadeIn 5s',
     },
 
@@ -33,11 +33,6 @@ function NavLinks() {
                 </Button>
                 {open ?
                 <div className='list-group'>
-                    <a href="#about" className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>About Me</a>
-                    <a href="#business" className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Business</a>
-                    <a href="#philanthropy" className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Philanthropy</a>
-                    <a href="#awards" className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Awards</a>
-                    <a href="#contact" className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Contact Me</a>
                     <a href='#bottom' className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Bottom Of Page</a>
                     <a href='#page' className="list-group-item list-group-item-action" style={myStyles.listGroupItem}>Back To Top</a>
                 </div>
