@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import { MenuItems } from './MenuItems';
 import './styleNav.css';
 
+// import other components here
+import Navbar2 from '../Navbar2';
+
 // define styles here
 const myStyles = {
     navbar: {
@@ -61,6 +64,7 @@ const Navbar = () => {
                     })}
                 </ul>
             </nav>
+            <Navbar2 />
         </div>
     )
 }
