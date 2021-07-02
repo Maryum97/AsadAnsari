@@ -27,7 +27,7 @@ function PageIntro() {
 
                 <Col xs='4'>
                     <br></br>
-                    <img className='img-fluid' src={Logo}></img>
+                    <img className='bg-img img-fluid' src={Logo}></img>
                 </Col>
             </Row>
         </div>
