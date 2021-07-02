@@ -16,7 +16,20 @@ const myStyles = {
     },
     text: {
         textAlign: 'center',
+        marginTop: '100pt',
+        marginBottom: '-60pt',
+        fontSize: '25pt',
+        fontWeight: '600'
     }
+}
+
+// define functions to set hover state of the icon size
+function onIcon(e) {
+    e.target.style.opacity = '0.2';
+}
+
+function offIcon(e) {
+    e.target.style.opacity = '1';
 }
 
 const ContactIcon = (props) => {
@@ -31,15 +44,25 @@ const ContactIcon = (props) => {
             data-aos-mirror="true"
             data-aos-once="false"
             data-aos-delay="700"
-            style={myStyles.icon}
         >
             <div style={myStyles.text}>
                 {props.text}
             </div>
-            <br></br>
-            <a href={props.reference}>
-                <img src={props.icon} className='contact-icon'></img>
-            </a>
+            <div
+                data-aos='zoom-in'
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-delay="700"
+                onMouseOver={onIcon}
+                onMouseOut={offIcon}
+                style={myStyles.icon}
+            >
+                <br></br>
+                <a href={props.reference}>
+                    <img src={props.icon} className='contact-icon img-fluid'></img>
+                </a>
+            </div>
         </div>
     )
 }
