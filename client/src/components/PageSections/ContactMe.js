@@ -21,7 +21,8 @@ const myStyles = {
     }
 }
 
-function ContactMe() {
+const ContactMe = () => {
+    
     return (
         <div className='contact' style={myStyles.contact}>
             <Header header='Contact Me' />
@@ -29,6 +30,7 @@ function ContactMe() {
             <div className='email' style={myStyles.padding}>
                 <br></br>
                 <ContactIcon
+                    className='contactIcon'
                     text='Drop me an email here:'
                     reference='#email'
                     icon={Icon1}
@@ -40,6 +42,7 @@ function ContactMe() {
             </div>
             <div>
                 <ContactIcon
+                    className='contactIcon'
                     text='Find me on my social media here:'
                     reference='#social-media'
                     icon={Icon2}
