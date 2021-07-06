@@ -60,7 +60,7 @@ const ContactIcon = (props) => {
             >
                 <br></br>
                 <a href={props.reference}>
-                    <img src={props.icon} className='contact-icon img-fluid'></img>
+                    <img src={props.icon} className='contact-icon'></img>
                 </a>
             </div>
         </div>
