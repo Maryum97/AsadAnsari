@@ -8,12 +8,12 @@ import Quotation from '../Quotation';
 import PhilCard from '../PhilanthropyItems';
 
 // import images here
-import Item1 from '../../Assets/BritishAsianTrust.png';
-import Item2 from '../../Assets/ArmedForcesMuslimAssociation.png';
-import Item3 from '../../Assets/GrahamLaytonTrust.png';
-import Item4 from '../../Assets/CBH.png';
-import Item5 from '../../Assets/IslamChannel.png';
-import Item6 from '../../Assets/Deloitte.png';
+import Item1 from '../../Assets/Phil-Logos/Logo1.png';
+import Item2 from '../../Assets/Phil-Logos/Logo2.png';
+import Item3 from '../../Assets/Phil-Logos/Logo3.png';
+import Item4 from '../../Assets/Phil-Logos/Logo4.png';
+import Item5 from '../../Assets/Phil-Logos/Logo5.png';
+import Item6 from '../../Assets/Phil-Logos/Logo6.png';
 
 function Philanthropy() {
     return (
