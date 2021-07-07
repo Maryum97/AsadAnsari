@@ -7,7 +7,14 @@ import './style.css';
 
 const PhilCard = (props) => {
   return (
-    <div className='card'>
+    <div
+      className='card'
+      data-aos='zoom-in'
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-delay="300"
+    >
       <Card>
         <CardImg className='card-img' top width="100%" src={props.item} alt="Card image cap" />
         <CardBody className='card-body'>
