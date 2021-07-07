@@ -9,7 +9,7 @@ const myStyles = {
     item: {
         textAlign: 'center',
         padding: '10%',
-        fontSize: '25pt',
+        fontSize: '21pt',
         fontWeight: '600',
         height: '200px'
     }

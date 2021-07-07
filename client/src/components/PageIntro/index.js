@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import './style.css';
 
 // import images here
@@ -13,7 +13,9 @@ const myStyles = {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         animation: 'fadeIn 5s',
-        opacity: '0.9'
+        opacity: '0.9',
+        marginLeft: 'auto',
+        marginRight: 'auto'
     },
     logoIm: {
         marginTop: '30px'
