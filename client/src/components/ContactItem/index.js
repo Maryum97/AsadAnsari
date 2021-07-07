@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './style.css';
 
 // import aos dependencies here
 import Aos from 'aos';
@@ -8,10 +9,11 @@ import 'aos/dist/aos.css';
 const myStyles = {
     item: {
         textAlign: 'center',
-        padding: '10%',
+        padding: '13%',
         fontSize: '21pt',
-        fontWeight: '600',
-        height: '200px'
+        fontWeight: '700',
+        height: '200px',
+        marginTop: '100px'
     }
 }
 
@@ -27,6 +29,7 @@ const ContactItem = (props) => {
             data-aos-mirror="true"
             data-aos-once="false"
             data-aos-delay="300"
+            className='item-for-contact'
             style={myStyles.item}
         >
             {props.item}
