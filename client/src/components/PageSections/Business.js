@@ -21,7 +21,8 @@ const myStyle = {
         marginLeft: 'auto',
         marginRight: 'auto',
         width: '200px',
-        height: '50px'
+        height: '50px',
+        marginBottom: '40px'
     },
 
     style2: {
