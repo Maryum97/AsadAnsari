@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 const myStyles = {
     item: {
         textAlign: 'center',
-        padding: '13%',
+        padding: '11%',
         fontSize: '21pt',
         fontWeight: '700',
         height: '200px',
