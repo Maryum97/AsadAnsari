@@ -23,7 +23,19 @@ function Awards() {
         <div>
             <Header header='Awards' />
             <br></br>
-            <img src={Image1} style={myStyle.style1} className="img-fluid"></img><br></br>
+            <img
+                src={Image1}
+                style={myStyle.style1}
+                className="img-fluid"
+                data-aos='zoom-in'
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-delay="500"
+            >
+            </img>
+
+            <br></br>
             <br></br>
             <Description
                 heading='Asians In Tech Award 2020'
