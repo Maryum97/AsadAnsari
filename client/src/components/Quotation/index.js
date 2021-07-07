@@ -1,6 +1,6 @@
 import React from 'react';
 import Description from '../Description';
-import { Container, Row, Col } from 'reactstrap';
+import { Container } from 'reactstrap';
 import ImageQuote from '../../Assets/Screenshot_20210524-180312_Instagram.jpg'
 import './style.css';
 
