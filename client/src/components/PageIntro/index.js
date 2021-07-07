@@ -14,6 +14,9 @@ const myStyles = {
         backgroundPosition: 'center',
         animation: 'fadeIn 5s',
         opacity: '0.9'
+    },
+    logoIm: {
+        marginTop: '30px'
     }
 }
 
@@ -26,7 +29,7 @@ function PageIntro() {
 
                 <Col xs='4'>
                     <br></br>
-                    <img className='bg-img' src={Logo}></img>
+                    <img className='logo-img img-fluid' style={myStyles.logoIm} src={Logo}></img>
                 </Col>
             </Row>
         </div>
