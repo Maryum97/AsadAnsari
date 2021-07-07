@@ -9,5 +9,11 @@
 }
 
 .card-img {
-    height: 170px;
+    height: 160px;
+}
+
+@media screen and (max-width: 900px) {
+    .card-img {
+        height: 200px;
+    }    
 }
