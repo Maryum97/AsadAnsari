@@ -2,7 +2,7 @@
   background-color: rgb(241, 237, 201);
   background-image: linear-gradient(to bottom, transparent 0%, white 100%);
   padding: 3%;
-  margin-top: -3%;
+  margin-top: -6%;
   margin-bottom: -5%;
   height: 1100px;
 }
@@ -14,4 +14,10 @@
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+@media screen and (max-width: 970px) {
+  .page-intro {
+    width: 125%;
+  }
 }
