@@ -1,4 +1,5 @@
 .NavbarItems {
+    width: 100%;
     background: transparent;
     height: 100px;
     display: flex;
@@ -68,7 +69,7 @@
 @media screen and (max-width: 970px) {
 
     .NavbarItems {
-        position: relative;
+        width: 100%;
     }
 
     .nav-menu {
@@ -118,7 +119,7 @@
         display: block;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 90px;
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;

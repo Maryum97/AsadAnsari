@@ -1,5 +1,9 @@
+.sections {
+    width: auto;
+}
+
 @media screen and (max-width: 970px) {
-    .section {
+    .sections, #bottom {
         width: 100%;
     }
 }

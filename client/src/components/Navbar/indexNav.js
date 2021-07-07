@@ -10,8 +10,7 @@ const myStyles = {
     navbar: {
         zIndex: '1',
         position: 'fixed',
-        marginTop: '0px',
-        width: '100%'
+        marginTop: '0px'
     }
 }
 

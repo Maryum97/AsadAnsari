@@ -16,7 +16,7 @@ const Header = (props) => {
             data-aos-easing="ease-in-out"
             data-aos-mirror="true"
             data-aos-once="false"
-            className='header'
+            id='header'
         >
             <h1 className='header-text'><b>{props.header}</b></h1>
         </div>

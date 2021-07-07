@@ -36,25 +36,28 @@ function About() {
 
             {/* All page sections start here */}
 
-            <div className='section' id='about' style={myStyles.section}>
-                <AboutMe />
+            <div className='sections'>
+                <div className='section' id='about' style={myStyles.section}>
+                    <AboutMe />
+                </div>
+
+                <div className='section' id='business' style={myStyles.section}>
+                    <Business />
+                </div>
+
+                <div className='section' id='philanthropy' style={myStyles.section}>
+                    <Philanthropy />
+                </div>
+
+                <div className='section' id='awards' style={myStyles.section}>
+                    <Awards />
+                </div>
+
+                <div className='section' id='contact' style={myStyles.contact}>
+                    <ContactMe />
+                </div>
             </div>
 
-            <div className='section' id='business' style={myStyles.section}>
-                <Business />
-            </div>
-
-            <div className='section' id='philanthropy' style={myStyles.section}>
-                <Philanthropy />
-            </div>
-
-            <div className='section' id='awards' style={myStyles.section}>
-                <Awards />
-            </div>
-
-            <div className='section' id='contact' style={myStyles.contact}>
-                <ContactMe />
-            </div>
             <div id='bottom'>
                 <Footer />
             </div>
