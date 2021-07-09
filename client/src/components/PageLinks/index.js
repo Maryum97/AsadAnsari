@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { Button } from 'reactstrap';
+import React, { useState } from 'react';
 
 const myStyles = {
     card: {
@@ -19,7 +18,7 @@ const myStyles = {
     }
 }
 
-function NavLinks() {
+function PageLinks() {
     // declaring state variables
     const [open, setOpen] = useState('false');
 
@@ -48,4 +47,4 @@ function NavLinks() {
     );
 }
 
-export default NavLinks;
+export default PageLinks;

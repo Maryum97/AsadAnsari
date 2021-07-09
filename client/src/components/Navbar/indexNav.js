@@ -3,7 +3,7 @@ import { MenuItems } from './MenuItems';
 import './styleNav.css';
 
 // import other components here
-import Navbar2 from '../Navbar2';
+import PageLinks from '../PageLinks';
 
 // define styles here
 const myStyles = {
@@ -63,7 +63,7 @@ const Navbar = () => {
                     })}
                 </ul>
             </nav>
-            <Navbar2 />
+            <PageLinks />
         </div>
     )
 }
