@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './style.css';
 
 // import aos dependencies here
@@ -30,6 +30,23 @@ const ContactItem = (props) => {
         Aos.init({ duration: 1000 })
     })
 
+    // define state variables for copy button to work
+    const [copySucess, setCopySuccess] = useState('');
+    const textAreaRef = useRef(null);
+
+    // function to copy text and make success message appear
+    function copyToClipboard(e) {
+        textAreaRef.current.select();
+        document.execCommand('copy');
+        setCopySuccess(
+            <div className='success-msg'>
+                <h3 className='success-text'>
+                    Copied!
+                </h3>
+            </div>
+        );
+    }
+
     return (
         <div
             data-aos='zoom-in'
@@ -41,15 +58,19 @@ const ContactItem = (props) => {
             style={myStyles.item}
         >
             <textarea
+                ref={textAreaRef}
                 value={props.item}
             >
             </textarea>
             <br></br>
-            <button 
+            <button
+                onClick={copyToClipboard}
                 style={myStyles.button}
             >
                 Copy Email
             </button>
+            <br></br>
+            {copySucess}
         </div>
     )
 }
