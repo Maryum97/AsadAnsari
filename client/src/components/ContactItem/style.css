@@ -9,10 +9,20 @@ textarea {
 .success-msg {
     margin-top: 10pt;
     width: 27%;
-    padding: 1%;
+    padding: 2%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(241, 237, 201);
+}
+
+.cross {
+    color: white;
+    background-color: rgb(133, 39, 39);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17pt;
+    position: absolute;
+    right: 450px;
+    margin-top: -15px;
 }
 
 @media screen and (max-width: 960px) {
@@ -22,7 +32,8 @@ textarea {
     } 
 
     textarea {
-        font-size: 13pt;
+        font-size: 8pt;
         padding: 3%;
+        height: 100pt;
     }
 }

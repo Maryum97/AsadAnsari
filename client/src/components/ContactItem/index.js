@@ -34,17 +34,42 @@ const ContactItem = (props) => {
     const [copySucess, setCopySuccess] = useState('');
     const textAreaRef = useRef(null);
 
+    // function to render sucess message
+    function successMsg(showAlert) {
+        if (showAlert) {
+            return (
+                <div className='success-msg'>
+                    <button
+                        className='cross'
+                        onClick={closeMsg}
+                    >
+                        X
+                    </button>
+                    <h3 className='success-text'>
+                        Copied!
+                    </h3>
+                </div>
+            )
+        }
+
+        else {
+            return (
+                <div></div>
+            )
+        }
+    }
+
+    // funtion to chnage the state of the success message
+    function closeMsg() {
+        setCopySuccess(successMsg(false));
+    }
+
     // function to copy text and make success message appear
     function copyToClipboard(e) {
         textAreaRef.current.select();
         document.execCommand('copy');
-        setCopySuccess(
-            <div className='success-msg'>
-                <h3 className='success-text'>
-                    Copied!
-                </h3>
-            </div>
-        );
+        e.target.focus();
+        setCopySuccess(successMsg(true));
     }
 
     return (
