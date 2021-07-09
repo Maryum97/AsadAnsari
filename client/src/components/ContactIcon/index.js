@@ -10,15 +10,14 @@ const myStyles = {
     icon: {
         textAlign: 'center',
         padding: '9%',
-        fontSize: '18pt',
         fontWeight: '600',
         height: '500px'
     },
     text: {
         textAlign: 'center',
         marginTop: '100pt',
-        marginBottom: '-60pt',
-        fontSize: '25pt',
+        marginBottom: '-40pt',
+        fontSize: '20pt',
         fontWeight: '600'
     }
 }

@@ -5,7 +5,6 @@ import { Row, Col } from 'reactstrap';
 // define styles here
 const myStyles = {
     textAlign: 'center',
-    fontSize: '24pt',
     fontWeight: 'bold'
 }
 
