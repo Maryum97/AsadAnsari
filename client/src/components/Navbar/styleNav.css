@@ -70,6 +70,7 @@
 
     .NavbarItems {
         position: absolute;
+        width: 100%;
     }
 
     .nav-menu {

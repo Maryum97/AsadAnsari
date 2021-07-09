@@ -22,7 +22,7 @@ const myStyles = {
 }
 
 const ContactMe = () => {
-    
+
     return (
         <div className='contact' style={myStyles.contact}>
             <Header header='Contact Me' />
@@ -40,7 +40,7 @@ const ContactMe = () => {
                 <ContactItem
                     item='contact@asadansari.org' />
             </div>
-            <div>
+            <div style={{ marginTop: '200pt' }}>
                 <ContactIcon
                     className='contactIcon'
                     text='Find me on my social media here:'
