@@ -8,11 +8,15 @@ textarea {
 
 .success-msg {
     margin-top: 10pt;
-    width: 27%;
-    padding: 2%;
+    width: 22%;
+    padding: 1.4%;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(241, 237, 201);
+}
+
+.success-text {
+    margin-top: -20pt;
 }
 
 .cross {
@@ -20,12 +24,12 @@ textarea {
     background-color: rgb(133, 39, 39);
     font-family: 'Times New Roman', Times, serif;
     font-size: 17pt;
-    position: absolute;
-    right: 450px;
-    margin-top: -15px;
+    position: relative;
+    right: -90pt;
+    top: -10pt;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1550px) {
     .item-for-contact {
         margin-top: 400px;
         padding: 3%;
@@ -34,6 +38,29 @@ textarea {
     textarea {
         font-size: 8pt;
         padding: 3%;
-        height: 100pt;
+        height: 80pt;
+    }
+
+    .success-msg {
+        width: 25%;
+        padding: 1.5%;
+    }
+
+    .cross {
+        font-size: 13pt;
+        right: -65pt;
     }
 }
+
+@media screen and (max-width: 920px) {
+    .success-msg {
+        width: 30%;
+        padding: 2.3%;
+    }
+
+    .cross {
+        font-size: 10pt;
+        top: -17pt;
+        right: -48pt;
+    }
+} 
