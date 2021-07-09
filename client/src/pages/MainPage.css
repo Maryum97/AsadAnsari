@@ -1,3 +1,10 @@
+body {
+    overflow-x: hidden
+}
+.aos-init:not(.aos-animate):after {
+    position: fixed;
+}
+
 .sections {
     width: auto;
 }
