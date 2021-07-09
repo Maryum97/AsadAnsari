@@ -70,7 +70,7 @@
 
     .NavbarItems {
         position: absolute;
-        width: 100%;
+        width: 104%;
     }
 
     .nav-menu {
@@ -86,9 +86,10 @@
     }
 
     .nav-menu.active {
-        background: rgb(221, 185, 94);
+        background: rgba(168, 141, 74, 0.856);
         width: 36%;
-        right: -4%;
+        right: -2%;
+        padding: 1%;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
@@ -117,6 +118,7 @@
 
     /* Here is where the magic should happen! */
     .menu-icon {
+        padding: 0.6%;
         display: block;
         position: absolute;
         top: 0;
@@ -124,6 +126,11 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
+    }
+
+    .menu-icon:hover {
+        background-color: rgb(207, 154, 20);
+        transition: 0.4s;
     }
 
     .fa-times, .fa-bars {

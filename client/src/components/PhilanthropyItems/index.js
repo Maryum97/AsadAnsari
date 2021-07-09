@@ -16,7 +16,7 @@ const PhilCard = (props) => {
       data-aos-delay="300"
     >
       <Card>
-        <CardImg className='card-img' top width="100%" src={props.item} alt="Card image cap" />
+        <CardImg className='card-img img-fluid' top width="100%" src={props.item} alt="Card image cap" />
         <CardBody className='card-body'>
           <CardTitle tag="h5" className='text-center'>{props.title}</CardTitle>
           <CardText>{props.text}</CardText>

@@ -14,10 +14,10 @@ import LinkedIn from '../../Assets/Contact-Icons/linkedin.png'
 // define styles here
 const myStyles = {
     style1: {
-        padding: '22%',
+        padding: '20%',
         height: '500px',
         textAlign: 'center',
-        marginTop: '400px'
+        marginTop: '200px'
     }
 }
 
@@ -36,7 +36,7 @@ const SocialMedia = () => {
     }
 
     return (
-        <div style={myStyles.style1}>
+        <div style={myStyles.style1} className='social-media'>
             <Container>
                 <Row>
                     <Col xs='3'>

@@ -12,8 +12,18 @@
     height: 160px;
 }
 
+@media screen and (max-width: 1300px) {
+    .card-body {
+        height: 266px;
+    }
+
+    .card-img {
+        height: 136px;
+    }    
+}
+
 @media screen and (max-width: 900px) {
     .card-img {
-        height: 145px;
+        height: 160px;
     }    
 }
