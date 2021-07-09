@@ -4,6 +4,10 @@ textarea {
     text-align: center;
     font-size: 24pt;
     font-weight: 600;
+    border: 1px solid #888;
+    background-color: rgb(241, 237, 201);
+    color: rgb(133, 39, 39);
+    border: 1px solid rgb(133, 39, 39);
 }
 
 .success-msg {
