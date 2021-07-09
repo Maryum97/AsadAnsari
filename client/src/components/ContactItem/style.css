@@ -6,6 +6,15 @@ textarea {
     font-weight: 600;
 }
 
+.success-msg {
+    margin-top: 10pt;
+    width: 27%;
+    padding: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(241, 237, 201);
+}
+
 @media screen and (max-width: 960px) {
     .item-for-contact {
         margin-top: 400px;
@@ -13,7 +22,7 @@ textarea {
     } 
 
     textarea {
-        font-size: 16pt;
+        font-size: 13pt;
         padding: 3%;
     }
 }
