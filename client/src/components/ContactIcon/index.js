@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 const myStyles = {
     icon: {
         textAlign: 'center',
-        padding: '9%',
+        padding: '4%',
         fontWeight: '600',
         height: '500px'
     },
