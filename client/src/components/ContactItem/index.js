@@ -13,7 +13,15 @@ const myStyles = {
         fontSize: '21pt',
         fontWeight: '700',
         height: '200px',
-        marginTop: '100px'
+        marginTop: '100px',
+        marginLeft: 'auto',
+        marginRight: 'auto'
+    },
+    button: {
+        backgroundColor: 'rgb(133, 39, 39)',
+        color: 'white',
+        fontSize: '16pt',
+        padding: '2%'
     }
 }
 
@@ -32,7 +40,16 @@ const ContactItem = (props) => {
             className='item-for-contact'
             style={myStyles.item}
         >
-            {props.item}
+            <textarea
+                value={props.item}
+            >
+            </textarea>
+            <br></br>
+            <button 
+                style={myStyles.button}
+            >
+                Copy Email
+            </button>
         </div>
     )
 }

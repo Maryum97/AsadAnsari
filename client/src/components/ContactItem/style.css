@@ -1,6 +1,19 @@
+textarea {
+    width: 50%;
+    height: 70px;
+    text-align: center;
+    font-size: 24pt;
+    font-weight: 600;
+}
+
 @media screen and (max-width: 960px) {
     .item-for-contact {
         margin-top: 400px;
         padding: 3%;
     } 
+
+    textarea {
+        font-size: 16pt;
+        padding: 3%;
+    }
 }
